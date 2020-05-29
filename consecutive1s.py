@@ -14,4 +14,4 @@ def swap(i,j,arr):
     arr[i],arr[j]=arr[j],arr[i]
 
 
-print(bubbleSort([2,3,1,2,1,11,1]))
+print(bubbleSort([2,12,3,1,2,1,11,1]))
