@@ -1,14 +1,13 @@
-def perm(lst):
-    if len(lst)==0:
-        return []
-    elif len(lst)==1:
-        return lst
-    else:
-        l=[]
-        for i,val in enumerate(lst):
-            xs=lst[:i]+lst[i+1:]
+import consecutive1s
+from abc import ABC,abstractmethod
+class Computer(ABC):
+    @abstractmethod
+    def process(self):
+        pass
+
+class Laptop(Computer):
+    def process(self):
+        pass
 
 
-lst=[1,2,3]
-for i,val in enumerate(lst):
-    print(lst[:i]+lst[i+1:])
+
